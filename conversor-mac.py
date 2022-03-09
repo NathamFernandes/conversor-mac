@@ -24,7 +24,7 @@ while True:
             endereco_saida = ''.join(elementos)
             print("Enderço MAC (Windows): " + endereco_saida)
             continuar = str(input("Deseja encerrar o programa? [S/N]: "))
-            if continuar.upper == "S":
+            if continuar.upper() == "S":
                 break
         elif tipo == 2:
             elementos[2] = "."
@@ -35,7 +35,7 @@ while True:
             endereco_saida = ''.join(elementos)
             print("Enderço MAC (Intelbras): " + endereco_saida)
             continuar = str(input("Deseja encerrar o programa? [S/N]: "))
-            if continuar.upper == "S":
+            if continuar.upper() == "S":
                 break
         elif tipo == 3:
             elementos[2] = ":"
@@ -46,7 +46,7 @@ while True:
             endereco_saida = ''.join(elementos)
             print("Enderço MAC (HP): " + endereco_saida)
             continuar = str(input("Deseja encerrar o programa? [S/N]: "))
-            if continuar.upper == "S":
+            if continuar.upper() == "S":
                 break
         else:
             print("Opção inválida. Programa encerrado.")
@@ -66,17 +66,17 @@ while True:
         if tipo == 1:
             print("Enderço MAC (Windows): " + endereco_saida)
             continuar = str(input("Deseja encerrar o programa? [S/N]: "))
-            if continuar.upper == "S":
+            if continuar.upper() == "S":
                 break
         elif tipo == 2:
             print("Enderço MAC (Intelbras): " + endereco_saida)
             continuar = str(input("Deseja encerrar o programa? [S/N]: "))
-            if continuar.upper == "S":
+            if continuar.upper() == "S":
                 break
         elif tipo == 3:
             print("Enderço MAC (HP): " + endereco_saida)
             continuar = str(input("Deseja encerrar o programa? [S/N]: "))
-            if continuar.upper == "S":
+            if continuar.upper() == "S":
                 break
     else:
         print("\nSeparação inválida. Insira uma separação válida ('-', ':', '-', '')\n")
