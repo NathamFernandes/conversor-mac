@@ -1,5 +1,5 @@
 # Conversor MAC
-Programa básico em pypthon que converte o seu endereço MAC para o tipo desejado.
+Programa básico em python que converte o seu endereço MAC para o tipo desejado.
 
 Tipos possíveis:
 - Windows (-)
